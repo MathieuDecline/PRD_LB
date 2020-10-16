@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 25 15:17:59 2020
-
-@author: mathi
-"""
-
 
 from PIL import Image
 import cv2
