@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 13 15:44:43 2020
-
-@author: mathi
-"""
 
 
-
-#Remove UKNOW label trial
-
+#Extract label and text from labeled dataset
+#Input : PATH to Labeled_Text_Dataset
+#Output : TextList , LabelList
 def Duplicate_Text2List(PATH): 
     file = open(PATH)
     file = file.read()
@@ -26,6 +21,9 @@ def Duplicate_Text2List(PATH):
     return texte, texte_label
     file.close()
 
+#Write dataset as text file from a TextList and LabelList
+#Input : OutputFileName , TextList, LabelList
+#Output : DatasetFile
 def WritingFileSentence_non_duplicateLines(file_name, LIST, LABEL_LIST):
     sentence=[]
     List_sentence = (sentence)
@@ -40,7 +38,9 @@ def WritingFileSentence_non_duplicateLines(file_name, LIST, LABEL_LIST):
         f.write('\n') 
     return f.close()
 
-
+#Remove specified label and reshape dataset
+#Input : InputFileName, OutputFileName
+#Output : DatasetFile (label removed)
 def removeUNK(Input_file, Output_file):
     Pos_0=[]
     LIST, LABEL_LIST = Duplicate_Text2List(Input_file)
@@ -59,16 +59,16 @@ def removeUNK(Input_file, Output_file):
     WritingFileSentence_non_duplicateLines(Output_file, LIST, LABEL_LIST)
     return LABEL_LIST
 
+# ==============================================================
 
 print("START")
-#proportion
 
-# removeUNK('removed.txt', 'removed_processed_1.txt')
-# removeUNK('removed_processed_1.txt', 'removed_processed_2.txt')
-# removeUNK('removed_processed_2.txt', 'removed_processed_3.txt')
-removeUNK('sentence_duplicated_doc_text.txt', 'removed_duplicated_0.txt')
+Input_File = 'sentence_duplicated_doc_text.txt'
+Output_File = 'removed_duplicated_0.txt'
+
+removeUNK(Input_File, Output_File)
 
 
-print("HAPPY END")    
+print("END")    
             
         
