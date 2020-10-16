@@ -1,13 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 29 11:24:16 2020
-
-@author: mathi
-"""
 
 # =============================================================================
-# https://www.youtube.com/c/MurtazasWorkshopRoboticsandAI/videos
-# https://www.murtazahassan.com/courses/opencv-projects/
+# Need Utils.py script to run the code
 # Document scanning
 # =============================================================================
 
@@ -24,7 +18,7 @@ from PIL import Image
 
 pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# 1) get img from cam
+# 1) get img 
 heightImg = 640
 widthImg = 400
 
