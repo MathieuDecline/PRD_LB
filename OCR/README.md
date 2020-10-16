@@ -1,6 +1,6 @@
-OCR - Optical Character Recognition
+# OCR - Optical Character Recognition
 
-Modules:
+# Modules:
 opencv : !pip install opencv-python
 
 pytesseract : !pip install pytesseract
