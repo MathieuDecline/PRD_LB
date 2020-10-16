@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Oct  2 16:50:18 2020
 
-@author: mathi
-"""
 import numpy as np
 import json
 
@@ -1440,4 +1436,4 @@ Output_File_Name ='sentence_duplicated_doc_text.txt'
 duplicateLines(Input_File_Name, Output_File_Name)
 NonDuplicateLines(Input_File_Name, 'Non_duplicated_sentence_doc_text.txt')
 
-print("HAPPY END")
+print("END")
