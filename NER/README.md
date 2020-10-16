@@ -1,8 +1,9 @@
-Named Entity Recognition
+# Named Entity Recognition
 BERT Model - google colab - NER
+
 https://colab.research.google.com/drive/1ulJlyB4jnImWuorUAfDdM7l1Y7CwCQXL?usp=sharing
 
-Data repository for BERT model.
+# Data repository for BERT model.
 
 Dataset_0 : 
 Each text line represent a line from the receipt.
