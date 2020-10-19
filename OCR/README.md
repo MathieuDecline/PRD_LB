@@ -14,6 +14,7 @@ pytesseract.pytesseract.tesseract_cmd = r'PATH\tesseract.exe'.
 
  ![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/OCR/X51008123476.jpg) 
 
+ ![alt text]( https://github.com/MathieuDecline/PRD_LB/blob/main/OCR/TextFromImage.txt) 
 
 
 
