@@ -12,7 +12,7 @@ Tesseract files installation is required.
 Tesseract path to tesseract.exe is required.
 pytesseract.pytesseract.tesseract_cmd = r'PATH\tesseract.exe'.
 
- ![alt text](http://url/to/img.png) 
+ ![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/OCR/X51008123476.jpg) 
 
 
 
