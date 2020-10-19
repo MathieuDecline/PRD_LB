@@ -12,6 +12,8 @@ Tesseract files installation is required.
 Tesseract path to tesseract.exe is required.
 pytesseract.pytesseract.tesseract_cmd = r'PATH\tesseract.exe'.
 
+ ![alt text](http://url/to/img.png) 
+
 
 
 
