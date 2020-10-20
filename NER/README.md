@@ -32,3 +32,11 @@ Dataset_3 :
 Each text line represent a word from the receipt: .
 All lines with unkown label were removed.
 Each line is associated to a label : 'company', 'date', 'address', 'total'
+
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Dataset_2.png?raw=true)
+
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Result_2.jpg?raw=true)
+
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Grid_2.jpg?raw=true)
+
+
