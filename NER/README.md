@@ -22,6 +22,7 @@ Each line is associated to a label : 'company', 'date', 'address', 'total'
 
 ![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Result_1.png?raw=true)
 
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Grid_1.png?raw=true)
 
 Dataset_2 : 
 Each text line represent a word from the receipt.
