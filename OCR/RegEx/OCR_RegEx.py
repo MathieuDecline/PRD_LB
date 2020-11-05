@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov  4 14:36:37 2020
 
-@author: mathi
-"""
 import matplotlib.pyplot as plt
 
 #!pip install re
@@ -18,7 +14,7 @@ import numpy as np
 import pytesseract
 #Tesseract PATH to teseract.exe [Required Folder]
 #see documentation : https://pypi.org/project/pytesseract/
-pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd=r'PATH_TO_TESSERACT\tesseract.exe'
 
 #Convert RGB_Image into Greyscale_Image
 #Input : PATH to RGB_Image
@@ -231,9 +227,8 @@ def deviseRegex(Text):
 print('START')
 
 #Path To Image
-PATH = r'C:\Users\mathi\OneDrive\Bureau\PRO\ECAM Lyon\PRD\Regex\DataBase_OCR\PreProcess\1001-receipt.jpg'
+PATH = r'PATH_TO_IMAGE\ImageName.jpg'
 
-#
 result = thresholdMaxPrices(PATH)
 print(result[0])
 print (result[1])
