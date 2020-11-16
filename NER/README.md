@@ -39,4 +39,10 @@ Each line is associated to a label : 'company', 'date', 'address', 'total'
 
 ![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Grid_2.jpg?raw=true)
 
+# Dataset_US_Presta :
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Dataset_US_Dataset_Presta.png)
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_result_US_Dataset_Presta_Acc.png)
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_result_US_Dataset_Presta_Loss.png)
 
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Result_US_Dataset_Presta.PNG)
+![alt text](https://github.com/MathieuDecline/PRD_LB/blob/main/NER/Img_Grid_US_Dataset_Presta.png)
